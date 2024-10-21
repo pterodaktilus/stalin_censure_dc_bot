@@ -21,7 +21,7 @@ async def on_ready():
 @bot.event
 async def on_message(message):
     
-    target_messages = ["mňau"]
+    target_messages = ["mňau", "UwU", ":3"]
     message_to_send = f"BAD <@{message.author.id}>!!!\n"+f"https://tenor.com/view/andrew-tate-stare-andrew-tate-andrew-tate-sigma-xafer-gif-10165002945664617941"
     
     for target in target_messages:
